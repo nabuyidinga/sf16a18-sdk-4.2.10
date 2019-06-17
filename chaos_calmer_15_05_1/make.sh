@@ -106,6 +106,12 @@ case ${board} in
 	86v)
 		target_board=target/linux/siflower/sf16a18_86v_${chip}_def.config
 		;;
+	rep)
+		target_board=target/linux/siflower/sf16a18_rep_${chip}_def.config
+		;;
+	rep_nopa)
+		target_board=target/linux/siflower/sf16a18_rep_nopa_${chip}_def.config
+		;;
 	ac)
 		target_board=target/linux/siflower/sf16a18_ac_${chip}_def.config
 		;;
